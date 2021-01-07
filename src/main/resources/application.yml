@@ -2,4 +2,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: info,health,beans,metrics
+        include: info,health,beans,metrics,heapdump,loggers
